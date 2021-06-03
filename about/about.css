@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height: 80px;
+    width: 200px;
+    cursor: pointer;
+}
+.main{
+    background: black;
+    font-family: sans-serif;
+    
+}
+#navigation{
+    height: 40px;
+    width: 90%;
+    
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+#navigation ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+#navigation ul li a{
+    text-decoration: none;
+    color: yellow;
+   
+}
+#navigation ul li a:hover{
+    color: whitesmoke;
+   
+}
+#body{
+    margin: 10px;
+    padding-right: 10px;
+ }
+ .dog{
+    margin: 10px;
+    padding-right: 10px;
+ }
+ #chill{
+     padding-right: 20px;
+ }
+ #pera{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(212, 201, 201);
+    margin-top: 10px;
+}
+#box{
+    height: 300px;
+    width: 25%;
+    padding-left: 300px;
+    padding-top: 40px;
+    align-items: center;
+}
+#icon{
+    padding-right: 10px;
+}
+#font{
+    padding-left: 10px;
+}
+
+.arrow{
+    height: 18px;
+    width: 21px;
+    background-color: yellow;
+   
+}
+#arrow{
+    padding-left: 2px;
+}

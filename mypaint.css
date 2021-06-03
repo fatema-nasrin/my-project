@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 80px;
+    width: 200px;
+    cursor: pointer;
+   
+}
+.main{
+    background: black;
+    font-family: sans-serif;
+    
+}
+#navigation{
+    height: 40px;
+    width: 90%;
+    
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+#navigation ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+#navigation ul li a{
+    text-decoration: none;
+    color: yellow;
+   
+}
+#navigation ul li a:hover{
+    color: whitesmoke;
+   
+}
+.btn{
+    height: 45px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 180px;
+    margin-top: 180px;
+    background-color: rgb(219, 129, 114);
+}
+.btn:hover{
+    color: white;
+    background-color: tomato;
+}
+.box{
+    height: 800px;
+    width: 50%;
+    background-image: url("admit.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#box{
+    height: 500px;
+    width: 30%;
+}
+.cats{
+    display: flex;
+    justify-content: space-around;
+   
+}
+#font{
+    color: tomato;
+}
+.chill{
+    height: 40px;
+    width: 300px;
+   
+}
+#icon{
+    padding-right: 250px;
+}

@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height: 80px;
+    width: 200px;
+    cursor: pointer;
+}
+.main{
+    background: black;
+    font-family: sans-serif;
+    
+}
+#navigation{
+    height: 40px;
+    width: 90%;
+    
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+#navigation ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+#navigation ul li a{
+    text-decoration: none;
+    color: yellow;
+   
+}
+#navigation ul li a:hover{
+    color: whitesmoke;
+   
+}
+.box{
+    height: 150px;
+    width: 500px;
+    padding-left: 400px;
+    padding-top: 100px;
+
+}
+#box{
+    height: 150px;
+    width: 500px;
+}
+#btn{
+    height: 40px;
+    width: 180px;
+    color: lightcyan;
+    border-radius: 5px;
+    margin-left: 325px;
+    margin-top: 10px;
+    background: linear-gradient(45deg,rgb(86, 21, 112) , rgb(189, 152, 152));
+}
+.body{
+   height: 480px;
+   width: 100%;
+   background-image: url("class.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-top: 10px;
+  
+}
+#pera{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(212, 201, 201);
+    margin-top: 10px;
+}
+#baksho{
+    height: 300px;
+    width: 25%;
+    padding-left: 300px;
+    padding-top: 40px;
+    align-items: center;
+}
+#icon{
+    padding-right: 10px;
+}
+#font{
+    padding-left: 10px;
+}
+.arrow{
+    height: 18px;
+    width: 21px;
+    background-color: yellow;
+   
+}
+#arrow{
+    padding-left: 2px;
+}
